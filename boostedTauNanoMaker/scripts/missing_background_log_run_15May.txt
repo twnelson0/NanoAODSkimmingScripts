@@ -1,0 +1,40 @@
+[twnelson@login03 scripts]$ vim ~/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/bbtautauAnalysisScripts/metaData/skimmingFiles/December24_2024/                                   
+2018_Mini_TestList.json                         MissingMC2016_Files_Background.json             bbvvSignals_2018_MC.json                        missingbkg_2016_MC_ganesh.json
+MC2018_Files_Background.json                    MissingMC2017_Files_Background.json             minorBackgroundsAndmissingSignals_2018_MC.json  missingbkg_2017_MC_ganesh.json
+Memory_Test_Background.json                     MissingMC2018_Files_Background.json             missingbkg_2016APV_MC_ganesh.json               
+[twnelson@login03 scripts]$ vim ~/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/bbtautauAnalysisScripts/metaData/skimmingFiles/December24_2024/MC2018_Files_Background.json 
+[twnelson@login03 scripts]$ vim ~/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/bbtautauAnalysisScripts/metaData/skimmingFiles/December24_2024/MissingMC2018_Files_Background.json
+[twnelson@login03 scripts]$ vim ~/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/bbtautauAnalysisScripts/metaData/skimmingFiles/December24_2024/MC2018_Files_Background.json 
+[twnelson@login03 scripts]$ vim ~/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/bbtautauAnalysisScripts/metaData/skimmingFiles/December24_2024/MissingMC2018_Files_Background.json
+[twnelson@login03 scripts]$ vim ~/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/bbtautauAnalysisScripts/metaData/skimmingFiles/December24_2024/MissingMC2017_Files_Background.json
+[twnelson@login03 scripts]$ vim ~/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/bbtautauAnalysisScripts/metaData/skimmingFiles/December24_2024/MissingMC2016_Files_Background.json
+[twnelson@login03 scripts]$ python skimNtuples.py --skimFileConfiguration ~/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/bbtautauAnalysisScripts/metaData/skimmingFiles/December24_2024/MissingMC2018_Files_Background.json --skimCutConfiguration ../../metaData/skimmingCuttingConfigurations/2017_18_looserGeneralSkimCuttingConfiguration.json --skimBranchCancelations ../../metaData/branchCancelationConfigurations/Null_Cancelation.json --destination /hdfs/store/user/twnelson/HH4Tau_EtAl/Skimmed_Files/2018/MC --skimSuffix _skim_Feb25 --prepareCondorSubmission
+Setting up the skim...
+Performing skim...
+Datasets:   0%|          | 0/2 [00:00<?, ?it/s]                  No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//WZTo2L2Q_15May25_1113_skim__skim_Feb25/submit/user_code.tgz   [DONE]  after 0s                                                                                        
+Generating submit files in /nfs_scratch/twnelson//WZTo2L2Q_15May25_1113_skim__skim_Feb25/submit...
+.................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7904539.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WZTo2L2Q_15May25_1113_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WZTo2L2Q_15May25_1113_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WZTo2L2Q_15May25_1113_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WZTo2L2Q_15May25_1113_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WZTo2L2Q_15May25_1113_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WZTo2L2Q_15May25_1113_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WZTo2L2Q_15May25_1113_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WZTo2L2Q_15May25_1113_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WZTo2L2Q_15May25_1113_skim__skim_Feb25/submit
+Datasets:  50%|#####     | 1/2 [06:27<06:27, 387.14s/it]     empty glob: WZTo3L1Nu_4f, /hdfs/store/user/twnelson/HH4Tau_EtAl/Full_Production_CMSSW_13_0_13_Feb_25/2018/MC/WZTo3LNu_TuneCP5_13TeV-amcatnloFXFX-pythia8/WZTo3LNu_TuneCP5_13TeV-amcatnloFXFX-pythia8/250307_130624/*/*.root 
+Datasets: 100%|##########| 2/2 [06:27<00:00, 271.03s/it]
+

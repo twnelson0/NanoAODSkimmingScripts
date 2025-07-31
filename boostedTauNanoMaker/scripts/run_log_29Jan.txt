@@ -1,0 +1,436 @@
+[twnelson@login03 scripts]$ python skimNtuples.py --skimFileConfiguration /afs/hep.wisc.edu/home/twnelson/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/bbtautauAnalysisScripts/metaData/fileLists/ALL_2018/2018_MC_Files_Reminder.json --skimCutConfiguration ../../metaData/skimmingCuttingConfigurations/2017_18_looserGeneralSkimCuttingConfiguration.json --skimBranchCancelations ../../metaData/branchCancelationConfigurations/Null_Cancelation.json --destination /hdfs/store/user/twnelson/HHbbtt/Skimmed_Files/Jan29/2018/MC/ --skimSuffix _skim_Jan9_2018_MC_v1 --prepareCondorSubmission
+Setting up the skim...
+Performing skim...
+Datasets:   0%|          | 0/18 [00:00<?, ?it/s]               No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 0s                                                                            
+Generating submit files in /nfs_scratch/twnelson//ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1/submit...
+............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7810533.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/ZZTo4L_29January25_1427_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:   6%|5         | 1/18 [08:06<2:17:47, 486.35s/it]             No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 0s                                                                   
+Generating submit files in /nfs_scratch/twnelson//QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1/submit...
+.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7811058.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/QCD_HT700to1000_29January25_1435_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  11%|#1        | 2/18 [13:59<1:59:03, 446.49s/it]                      No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 1s                                                          
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1/submit...
+....................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7811215.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_29January25_1441_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  17%|#6        | 3/18 [15:07<1:23:11, 332.74s/it]                   No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 1s                                                             
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1/submit...
+.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7812059.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-70To100_29January25_1442_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  22%|##2       | 4/18 [25:26<1:37:40, 418.63s/it]                         No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 0s                                                       
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1/submit...
+.................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7812134.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_29January25_1452_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  28%|##7       | 5/18 [26:47<1:08:48, 317.55s/it]                              No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 0s                                                  
+Generating submit files in /nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1/submit...
+............................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7812201.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_29January25_1453_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  33%|###3      | 6/18 [27:52<48:20, 241.67s/it]                      No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 0s                                                            
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1/submit...
+...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7812703.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_29January25_1454_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  39%|###8      | 7/18 [35:53<57:29, 313.61s/it]                No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 1s                                                                  
+Generating submit files in /nfs_scratch/twnelson//QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1/submit...
+.....................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7812861.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/QCD_HT1000to1500_29January25_1503_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  44%|####4     | 8/18 [38:22<44:00, 264.09s/it]            No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 1s                                                                      
+Generating submit files in /nfs_scratch/twnelson//ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1/submit...
+........................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7812932.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/ZZTo2Nu2Q_5f_29January25_1505_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  50%|#####     | 9/18 [39:19<30:17, 201.94s/it]                    No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 0s                                                      
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1/submit...
+...................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7812982.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_29January25_1506_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  56%|#####5    | 10/18 [39:55<20:18, 152.28s/it]   No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 1s                                                                      
+Generating submit files in /nfs_scratch/twnelson//WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1/submit...
+...................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7813030.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/WZTo1L3Nu_4f_29January25_1507_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  61%|######1   | 11/18 [40:31<13:40, 117.25s/it]              No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 0s                                                           
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1/submit...
+..............................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7813093.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_29January25_1507_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  67%|######6   | 12/18 [41:19<09:39, 96.62s/it]       No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 1s                                                                   
+Generating submit files in /nfs_scratch/twnelson//QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1/submit...
+.....................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7813176.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/QCD_HT2000toInf_29January25_1508_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  72%|#######2  | 13/18 [42:27<07:19, 87.91s/it]                           No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 1s                                                       
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1/submit...
+.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7813406.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_29January25_1509_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  78%|#######7  | 14/18 [46:22<08:47, 131.93s/it]                          No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 0s                                                       
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1/submit...
+........................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7813585.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_29January25_1513_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  83%|########3 | 15/18 [49:09<07:07, 142.60s/it]               No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 1s                                                                  
+Generating submit files in /nfs_scratch/twnelson//TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1/submit...
+...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................^[[C.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7816941.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/TTToSemiLeptonic_29January25_1516_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  89%|########8 | 16/18 [1:24:18<24:24, 732.41s/it]           No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 0s                                                                    
+Generating submit files in /nfs_scratch/twnelson//QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1/submit...
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7817773.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/QCD_HT300to500_29January25_1551_skim__skim_Jan9_2018_MC_v1/submit
+Datasets:  94%|#########4| 17/18 [1:34:13<11:31, 691.39s/it]           No farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying file:///nfs_scratch/twnelson//QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1/submit/user_code.tgz   [DONE]  after 0s                                                                    
+Generating submit files in /nfs_scratch/twnelson//QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1/submit...
+...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7818590.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1 are created in /nfs_scratch/twnelson/QCD_HT200to300_29January25_1601_skim__skim_Jan9_2018_MC_v1/submit
+Datasets: 100%|##########| 18/18 [1:43:25<00:00, 649.32s/it]

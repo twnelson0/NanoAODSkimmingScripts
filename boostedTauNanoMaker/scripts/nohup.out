@@ -1,0 +1,1050 @@
+Datasets:   0%|          | 0/33 [00:00<?, ?it/s]
+RE Check: TTToHadronic:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: TTToHadronic: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s][A
+                                                                     [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//TTToHadronic_28February25_0521_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTToHadronic_28February25_0521_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//TTToHadronic_28February25_0521_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTToHadronic_28February25_0521_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//TTToHadronic_28February25_0521_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTToHadronic_28February25_0521_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//TTToHadronic_28February25_0521_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTToHadronic_28February25_0521_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//TTToHadronic_28February25_0521_skim__skim_Feb25/submit...
+............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7873578.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/TTToHadronic_28February25_0521_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/TTToHadronic_28February25_0521_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/TTToHadronic_28February25_0521_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/TTToHadronic_28February25_0521_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/TTToHadronic_28February25_0521_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/TTToHadronic_28February25_0521_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/TTToHadronic_28February25_0521_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for TTToHadronic_28February25_0521_skim__skim_Feb25 are created in /nfs_scratch/twnelson/TTToHadronic_28February25_0521_skim__skim_Feb25/submit
+Datasets:   3%|▎         | 1/33 [47:20<25:14:49, 2840.31s/it]
+RE Check: WJetsToLNu_HT-800To1200:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: WJetsToLNu_HT-800To1200: 100%|██████████| 1/1 [00:00<00:00,  5.85it/s][A
+                                                                                [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/submit...
+................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7873765.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_28February25_0609_skim__skim_Feb25/submit
+Datasets:   6%|▌         | 2/33 [49:13<17:24:43, 2022.04s/it]
+RE Check: WJetsToLNu_HT-600To800:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: WJetsToLNu_HT-600To800: 100%|██████████| 1/1 [00:00<00:00,  9.11it/s][A
+                                                                               [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/submit...
+................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7874048.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_28February25_0610_skim__skim_Feb25/submit
+Datasets:   9%|▉         | 3/33 [51:17<12:06:19, 1452.64s/it]
+RE Check: TTTo2L2Nu:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: TTTo2L2Nu: 100%|██████████| 1/1 [00:00<00:00,  1.82it/s][A
+                                                                  [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//TTTo2L2Nu_28February25_0613_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTTo2L2Nu_28February25_0613_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//TTTo2L2Nu_28February25_0613_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTTo2L2Nu_28February25_0613_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//TTTo2L2Nu_28February25_0613_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTTo2L2Nu_28February25_0613_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//TTTo2L2Nu_28February25_0613_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTTo2L2Nu_28February25_0613_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//TTTo2L2Nu_28February25_0613_skim__skim_Feb25/submit...
+.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7875981.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/TTTo2L2Nu_28February25_0613_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/TTTo2L2Nu_28February25_0613_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/TTTo2L2Nu_28February25_0613_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/TTTo2L2Nu_28February25_0613_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/TTTo2L2Nu_28February25_0613_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/TTTo2L2Nu_28February25_0613_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/TTTo2L2Nu_28February25_0613_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for TTTo2L2Nu_28February25_0613_skim__skim_Feb25 are created in /nfs_scratch/twnelson/TTTo2L2Nu_28February25_0613_skim__skim_Feb25/submit
+Datasets:  12%|█▏        | 4/33 [1:28:09<13:32:14, 1680.50s/it]
+RE Check: ST_s-channel_4f_leptonDecays:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: ST_s-channel_4f_leptonDecays: 100%|██████████| 1/1 [00:00<00:00,  5.15it/s][A
+                                                                                     [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/submit...
+...........................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7876222.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25 are created in /nfs_scratch/twnelson/ST_s-channel_4f_leptonDecays_28February25_0649_skim__skim_Feb25/submit
+Datasets:  15%|█▌        | 5/33 [1:33:07<9:50:40, 1265.74s/it] 
+RE Check: WJetsToLNu_HT-600To800_OtherPart:   0%|          | 0/1 [00:00<?, ?it/s][A
+                                                                                 [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/submit...
+...............................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7876311.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-600To800_OtherPart_28February25_0654_skim__skim_Feb25/submit
+Datasets:  18%|█▊        | 6/33 [1:34:53<6:53:06, 918.01s/it] 
+RE Check: ST_tW_top_5f_inclusiveDecays:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: ST_tW_top_5f_inclusiveDecays: 100%|██████████| 1/1 [00:00<00:00,  8.97it/s][A
+                                                                                     [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/submit...
+.....................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7876425.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25 are created in /nfs_scratch/twnelson/ST_tW_top_5f_inclusiveDecays_28February25_0656_skim__skim_Feb25/submit
+Datasets:  21%|██        | 7/33 [1:37:00<4:54:55, 680.60s/it]
+RE Check: WJetsToLNu_HT-200To400:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: WJetsToLNu_HT-200To400: 100%|██████████| 1/1 [00:00<00:00,  3.49it/s][A
+                                                                               [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/submit...
+....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7877147.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-200To400_28February25_0658_skim__skim_Feb25/submit
+Datasets:  24%|██▍       | 8/33 [1:50:39<5:00:50, 722.03s/it]
+RE Check: DYJetsToLL_M-50_HT-1200to2500:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: DYJetsToLL_M-50_HT-1200to2500: 100%|██████████| 1/1 [00:00<00:00,  7.07it/s][A
+                                                                                      [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/submit...
+.....................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7877259.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-1200to2500_28February25_0712_skim__skim_Feb25/submit
+Datasets:  27%|██▋       | 9/33 [1:52:28<3:35:15, 538.13s/it]
+RE Check: ST_tW_antitop_5f_inclusiveDecays:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: ST_tW_antitop_5f_inclusiveDecays: 100%|██████████| 1/1 [00:00<00:00,  9.62it/s][A
+                                                                                         [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/submit...
+............................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7877372.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25 are created in /nfs_scratch/twnelson/ST_tW_antitop_5f_inclusiveDecays_28February25_0714_skim__skim_Feb25/submit
+Datasets:  30%|███       | 10/33 [1:54:10<2:36:11, 407.45s/it]
+RE Check: WWTo1L1Nu2Q:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: WWTo1L1Nu2Q: 100%|██████████| 1/1 [00:00<00:00,  5.39it/s][A
+                                                                    [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/submit...
+....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7877864.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WWTo1L1Nu2Q_28February25_0715_skim__skim_Feb25/submit
+Datasets:  33%|███▎      | 11/33 [2:01:32<2:33:06, 417.58s/it]
+RE Check: WJetsToLNu_HT-100To200:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: WJetsToLNu_HT-100To200: 100%|██████████| 1/1 [00:00<00:00,  3.26it/s][A
+                                                                               [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/submit...
+...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7879173.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-100To200_28February25_0723_skim__skim_Feb25/submit
+Datasets:  36%|███▋      | 12/33 [2:12:55<2:54:03, 497.29s/it]
+RE Check: ST_t-channel_antitop_4f_InclusiveDecays:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: ST_t-channel_antitop_4f_InclusiveDecays: 100%|██████████| 1/1 [00:00<00:00,  2.06it/s][A
+                                                                                                [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/submit...
+..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7881991.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25 are created in /nfs_scratch/twnelson/ST_t-channel_antitop_4f_InclusiveDecays_28February25_0734_skim__skim_Feb25/submit
+Datasets:  39%|███▉      | 13/33 [2:35:54<4:14:00, 762.01s/it]
+RE Check: DYJetsToLL_M-50_HT-400to600:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: DYJetsToLL_M-50_HT-400to600: 100%|██████████| 1/1 [00:00<00:00,  5.59it/s][A
+                                                                                    [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/submit...
+...................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7882382.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-400to600_28February25_0757_skim__skim_Feb25/submit
+Datasets:  42%|████▏     | 14/33 [2:38:28<3:03:27, 579.36s/it]
+RE Check: WZTo1L1Nu2Q:   0%|          | 0/1 [00:00<?, ?it/s][A
+                                                            [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/submit...
+.............................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7882672.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WZTo1L1Nu2Q_28February25_0800_skim__skim_Feb25/submit
+Datasets:  45%|████▌     | 15/33 [2:40:07<2:10:37, 435.39s/it]
+RE Check: ST_t-channel_top_4f_InclusiveDecays:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: ST_t-channel_top_4f_InclusiveDecays: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s][A
+                                                                                            [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/submit...
+.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7884818.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25 are created in /nfs_scratch/twnelson/ST_t-channel_top_4f_InclusiveDecays_28February25_0801_skim__skim_Feb25/submit
+Datasets:  48%|████▊     | 16/33 [3:24:51<5:14:27, 1109.84s/it]
+RE Check: WJetsToLNu_HT-800To1200_OtherPart:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: WJetsToLNu_HT-800To1200_OtherPart: 100%|██████████| 1/1 [00:00<00:00,  6.46it/s][A
+                                                                                          [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/submit...
+.......................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7884887.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-800To1200_OtherPart_28February25_0846_skim__skim_Feb25/submit
+Datasets:  52%|█████▏    | 17/33 [3:26:34<3:35:23, 807.74s/it] 
+RE Check: TTToSemiLeptonic:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: TTToSemiLeptonic: 100%|██████████| 1/1 [00:00<00:00,  1.10it/s][A
+                                                                         [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/submit...
+............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7887264.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for TTToSemiLeptonic_28February25_0848_skim__skim_Feb25 are created in /nfs_scratch/twnelson/TTToSemiLeptonic_28February25_0848_skim__skim_Feb25/submit
+Datasets:  55%|█████▍    | 18/33 [4:27:11<6:54:09, 1656.65s/it]
+RE Check: WJetsToLNu_HT-400To600:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: WJetsToLNu_HT-400To600: 100%|██████████| 1/1 [00:00<00:00,  6.00it/s][A
+                                                                               [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/submit...
+..........................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7887380.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_28February25_0948_skim__skim_Feb25/submit
+Datasets:  58%|█████▊    | 19/33 [4:29:44<4:41:17, 1205.57s/it]
+RE Check: WZTo1L3Nu_4f:   0%|          | 0/1 [00:00<?, ?it/s][A
+                                                             [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/submit...
+...................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7887433.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WZTo1L3Nu_4f_28February25_0951_skim__skim_Feb25/submit
+Datasets:  61%|██████    | 20/33 [4:30:49<3:07:04, 863.41s/it] 
+RE Check: WJetsToLNu_HT-1200To2500:   0%|          | 0/1 [00:00<?, ?it/s][A
+                                                                         [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/submit...
+....................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7887501.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_28February25_0952_skim__skim_Feb25/submit
+Datasets:  64%|██████▎   | 21/33 [4:32:28<2:06:50, 634.21s/it]
+RE Check: DYJetsToLL_M-50_HT-600to800:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: DYJetsToLL_M-50_HT-600to800: 100%|██████████| 1/1 [00:00<00:00,  9.09it/s][A
+                                                                                    [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/submit...
+.................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7887605.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-600to800_28February25_0954_skim__skim_Feb25/submit
+Datasets:  67%|██████▋   | 22/33 [4:34:37<1:28:26, 482.44s/it]
+RE Check: DYJetsToLL_M-50_HT-800to1200:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: DYJetsToLL_M-50_HT-800to1200: 100%|██████████| 1/1 [00:00<00:00,  9.62it/s][A
+                                                                                     [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/submit...
+.......................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7887709.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-800to1200_28February25_0956_skim__skim_Feb25/submit
+Datasets:  70%|██████▉   | 23/33 [4:36:45<1:02:42, 376.29s/it]
+RE Check: WJetsToLNu_HT-400To600_OtherPart:   0%|          | 0/1 [00:00<?, ?it/s][A
+                                                                                 [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/submit...
+.....................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7887759.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-400To600_OtherPart_28February25_0958_skim__skim_Feb25/submit
+Datasets:  73%|███████▎  | 24/33 [4:37:52<42:31, 283.45s/it]  
+RE Check: ZZTo2Q2L:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: ZZTo2Q2L: 100%|██████████| 1/1 [00:00<00:00,  5.63it/s][A
+                                                                 [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ZZTo2Q2L_28February25_0959_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ZZTo2Q2L_28February25_0959_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ZZTo2Q2L_28February25_0959_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ZZTo2Q2L_28February25_0959_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ZZTo2Q2L_28February25_0959_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ZZTo2Q2L_28February25_0959_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ZZTo2Q2L_28February25_0959_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ZZTo2Q2L_28February25_0959_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//ZZTo2Q2L_28February25_0959_skim__skim_Feb25/submit...
+.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7888038.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/ZZTo2Q2L_28February25_0959_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/ZZTo2Q2L_28February25_0959_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/ZZTo2Q2L_28February25_0959_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/ZZTo2Q2L_28February25_0959_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/ZZTo2Q2L_28February25_0959_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/ZZTo2Q2L_28February25_0959_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/ZZTo2Q2L_28February25_0959_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for ZZTo2Q2L_28February25_0959_skim__skim_Feb25 are created in /nfs_scratch/twnelson/ZZTo2Q2L_28February25_0959_skim__skim_Feb25/submit
+Datasets:  76%|███████▌  | 25/33 [4:44:14<41:43, 312.95s/it]
+RE Check: DYJetsToLL_M-50_HT-100to200:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: DYJetsToLL_M-50_HT-100to200: 100%|██████████| 1/1 [00:00<00:00,  4.42it/s][A
+                                                                                    [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/submit...
+.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7888344.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-100to200_28February25_1006_skim__skim_Feb25/submit
+Datasets:  79%|███████▉  | 26/33 [4:50:18<38:18, 328.38s/it]
+RE Check: WJetsToLNu_HT-1200To2500_OtherPart:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: WJetsToLNu_HT-1200To2500_OtherPart: 100%|██████████| 1/1 [00:00<00:00,  6.32it/s][A
+                                                                                           [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/submit...
+........................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7888442.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-1200To2500_OtherPart_28February25_1012_skim__skim_Feb25/submit
+Datasets:  82%|████████▏ | 27/33 [4:52:11<26:22, 263.80s/it]
+RE Check: WWTo2L2Nu:   0%|          | 0/1 [00:00<?, ?it/s][A
+                                                          [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WWTo2L2Nu_28February25_1013_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WWTo2L2Nu_28February25_1013_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WWTo2L2Nu_28February25_1013_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WWTo2L2Nu_28February25_1013_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WWTo2L2Nu_28February25_1013_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WWTo2L2Nu_28February25_1013_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WWTo2L2Nu_28February25_1013_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WWTo2L2Nu_28February25_1013_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WWTo2L2Nu_28February25_1013_skim__skim_Feb25/submit...
+..................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7888482.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WWTo2L2Nu_28February25_1013_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WWTo2L2Nu_28February25_1013_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WWTo2L2Nu_28February25_1013_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WWTo2L2Nu_28February25_1013_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WWTo2L2Nu_28February25_1013_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WWTo2L2Nu_28February25_1013_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WWTo2L2Nu_28February25_1013_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WWTo2L2Nu_28February25_1013_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WWTo2L2Nu_28February25_1013_skim__skim_Feb25/submit
+Datasets:  85%|████████▍ | 28/33 [4:53:18<17:02, 204.48s/it]
+RE Check: DYJetsToLL_M-50_HT-200to400:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: DYJetsToLL_M-50_HT-200to400: 100%|██████████| 1/1 [00:00<00:00,  7.79it/s][A
+                                                                                    [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/submit...
+........................................................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7888692.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-200to400_28February25_1015_skim__skim_Feb25/submit
+Datasets:  88%|████████▊ | 29/33 [4:57:26<14:30, 217.52s/it]
+RE Check: ST_s-channel_4f_hadronicDecays:   0%|          | 0/1 [00:00<?, ?it/s][A
+                                                                               [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/submit...
+.................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7888791.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25 are created in /nfs_scratch/twnelson/ST_s-channel_4f_hadronicDecays_28February25_1019_skim__skim_Feb25/submit
+Datasets:  91%|█████████ | 30/33 [4:59:27<09:26, 188.76s/it]
+RE Check: DYJetsToLL_M-50_HT-2500toInf:   0%|          | 0/1 [00:00<?, ?it/s][A
+                                                                             [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/submit...
+...................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7888847.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25 are created in /nfs_scratch/twnelson/DYJetsToLL_M-50_HT-2500toInf_28February25_1021_skim__skim_Feb25/submit
+Datasets:  94%|█████████▍| 31/33 [5:00:37<05:06, 153.19s/it]
+RE Check: WJetsToLNu_HT-2500ToInf_OtherPart:   0%|          | 0/1 [00:00<?, ?it/s][A
+RE Check: WJetsToLNu_HT-2500ToInf_OtherPart: 100%|██████████| 1/1 [00:00<00:00,  7.09it/s][A
+                                                                                          [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/submit...
+.................................................................................................................................................................................................................................................................................................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7888987.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_OtherPart_28February25_1022_skim__skim_Feb25/submit
+Datasets:  97%|█████████▋| 32/33 [5:03:51<02:45, 165.41s/it]
+RE Check: WJetsToLNu_HT-2500ToInf:   0%|          | 0/1 [00:00<?, ?it/s][A
+                                                                        [ANo farmout_dashboard.sh or cmsdashboard_reporter.tgz found, so no reporting to the CMS dashboard.
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/submit/user_code.tgz Failed. Retrying...
+Copying 1513204 bytes file:///nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/submit/user_code.tgz => davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/submit/user_code.tgz
+gfal-copy error: 1 (Operation not permitted) - DESTINATION MAKE_PARENT HTTP 403 : Permission refused 
+gfal-copy -fp file:///nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/submit/user_code.tgz davs://cmsxrootd.hep.wisc.edu:1094/HighReplicaCondorUserFiles//nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/submit/user_code.tgz Failed
+Generating submit files in /nfs_scratch/twnelson//WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/submit...
+..............................................................................................
+Submitting job(s).
+1 job(s) submitted to cluster 7889063.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/dags/dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/dags/dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/dags/dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/dags/dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/dags/dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/dags/dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/dags/dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25 are created in /nfs_scratch/twnelson/WJetsToLNu_HT-2500ToInf_28February25_1025_skim__skim_Feb25/submit
+Datasets: 100%|██████████| 33/33 [5:05:14<00:00, 140.62s/it]
+Setting up the skim...
+Performing skim...
