@@ -25,7 +25,9 @@ class skimManager():
                   deltaR_min=0.1,
                   deltaR_max=0.8,
                   muonSelection=lambda pt, eta, id: pt > 50 and abs(eta) < 2.4 and id > 0.5,
-                  tauSelection=lambda pt, eta, decay_mode, isoMVA: pt > 20 and abs(eta) < 2.3 and decay_mode >= 0.5 and isoMVA >= -0.7):
+                  #tauSelection=lambda pt, eta, decay_mode, deepBoostedTau: pt > 20 and abs(eta) < 2.3 and decay_mode >= 0.5 and deepBoostedTau >= 0.70): #Modify to 0.6 and 0.7 to see if you get 17 events (originial value set to 0.5)
+                  #tauSelection=lambda pt, eta, decay_mode, mva: pt > 20 and abs(eta) < 2.3 and decay_mode >= 0.5 and mva >= -0.7):
+                  tauSelection=lambda pt, eta: pt > 20 and abs(eta) < 2.3):
 
         try:
             #print("trying to open the file")
@@ -100,20 +102,20 @@ class skimManager():
         theOutputTree = theInputTree.CloneTree(0)
 
         for event in tqdm(theInputTree, total=theInputTree.GetEntries()):
-        #for event in tqdm(theInputTree, total=1000):
-            print('Running on events to choose 4 boosted taus...')
-            # Apply event-level cuts
-#            if not eval(finalCut): #Apply the cuts from the cuts.json file
-
             # Select taus
             taus = [
-                (event.boostedTau_eta[i], event.boostedTau_phi[i], event.boostedTau_pt[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawMVAoldDM2017v2[i])
+                #(event.boostedTau_eta[i], event.boostedTau_phi[i], event.boostedTau_pt[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawDeepTau2018v2p7VSjet[i]) #DBT
+                #(event.boostedTau_eta[i], event.boostedTau_phi[i], event.boostedTau_pt[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawMVAoldDM2017v2[i]) #MVA
+                (event.boostedTau_eta[i], event.boostedTau_phi[i], event.boostedTau_pt[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawMVAoldDM2017v2[i]) #MVA
+                #(i,i**2,i**3) #For testing purposes
                 for i in range(event.nboostedTau)
-                if tauSelection(event.boostedTau_pt[i], event.boostedTau_eta[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawMVAoldDM2017v2[i])
+                #if tauSelection(event.boostedTau_pt[i], event.boostedTau_eta[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawMVAoldDM2017v2[i]) #MVA
+                if tauSelection(event.boostedTau_pt[i], event.boostedTau_eta[i]) #MVA No ISO and Decay
+                #if tauSelection(event.boostedTau_pt[i], event.boostedTau_eta[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawDeepTau2018v2p7VSjet[i]) #DBT
             ]
             # Apply >= 4 boosted Tau in the events
             if len(taus) > 3:
-		print("Event selected")
+                #print("Event selected")
                 theOutputTree.Fill()
 
         theOutputFile.cd()
