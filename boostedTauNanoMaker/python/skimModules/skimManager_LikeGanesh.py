@@ -1,33 +1,22 @@
+#!/user/bin/env python
+#A class that will act as a master manager for the file skimming process
+#should abstract the act of skimming a single file, and this should allow for easier submission
+
 import ROOT
 import json
 import re
 from tqdm import tqdm
 from cutManager import cutManager
-import math
 
 class skimManager():
     def __init__(self):
         pass
-
-    def deltaR(self, eta1, phi1, eta2, phi2):
-        """Calculate delta R."""
-        dEta = eta1 - eta2
-        dPhi = abs(phi1 - phi2)
-        if dPhi > math.pi:
-            dPhi -= 2 * math.pi
-        return math.sqrt(dEta**2 + dPhi**2)
-
     def skimAFile(self,
                   fileName,
+                  #branchCancelations,
                   branchCancelationFileName,
                   theCutFile,
-                  outputFileName,
-                  deltaR_min=0.1,
-                  deltaR_max=0.8,
-                  muonSelection=lambda pt, eta, id: pt > 50 and abs(eta) < 2.4 and id > 0.5,
-                  tauSelection=lambda pt, eta, decay_mode, deepBoostedTau: pt > 20 and abs(eta) < 2.3 and decay_mode >= 0.5 and deepBoostedTau >= 0.5):# 0.70): #Modify to 0.6 and 0.7 to see if you get 17 events (originial value set to 0.5)
-                  #tauSelection=lambda pt, eta, decay_mode, mva: pt > 20 and abs(eta) < 2.3 and decay_mode >= 0.5 and mva >= -0.7):
-                  #tauSelection=lambda pt, eta: pt > 20 and abs(eta) < 2.3):
+                  outputFileName):
 
         try:
             #print("trying to open the file")
@@ -60,13 +49,13 @@ class skimManager():
                     exit(-1)
 
         print('Loaded the file, and retrieved the trees...')
-        
+        #load the branch cancelation FILE
         branchCancelations = None
-        if branchCancelationFileName is not None:
-            print('\n checking the branches\n') 
+        if branchCancelationFileName != None:
             branchCancelationFile = open(branchCancelationFileName)
             branchCancelationJSON = json.load(branchCancelationFile)
             branchCancelationFile.close()
+            
             try:
                 branchCancelations = [re.compile(branchCancelationJSON[x]) for x in branchCancelationJSON]
             except Exception as err:
@@ -74,7 +63,7 @@ class skimManager():
                 print(err)
                 exit(-1)
 
-        theCutManager = cutManager(theInputTree, theCutFile)
+        theCutManager = cutManager(theInputTree,theCutFile)
         
         nBranches = theInputTree.GetNbranches()
         listOfBranches = theInputTree.GetListOfBranches()
@@ -91,38 +80,23 @@ class skimManager():
         #now let's set up a new file/tree
         theOutputFile = ROOT.TFile(outputFileName,'RECREATE') #this has to happen last to keep things associated with it
 
-
         theCutFlow = theCutManager.createCutFlowHistogram()
         theCutFlow.Write('cutflow', ROOT.TFile.kOverwrite)
 
+        #now, let's do the magic copy
         finalCut = theCutManager.createAllCuts()
         print('Performing final tree copy...')
-
-        # Create new tree to hold filtered events
-        theOutputTree = theInputTree.CloneTree(0)
-
-        for event in tqdm(theInputTree, total=theInputTree.GetEntries()):
-            # Select taus
-            taus = [
-                (event.boostedTau_eta[i], event.boostedTau_phi[i], event.boostedTau_pt[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawDeepTau2018v2p7VSjet[i]) #DBT
-                #(event.boostedTau_eta[i], event.boostedTau_phi[i], event.boostedTau_pt[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawMVAoldDM2017v2[i]) #MVA
-                #(event.boostedTau_eta[i], event.boostedTau_phi[i], event.boostedTau_pt[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawMVAoldDM2017v2[i]) #MVA
-                #(i,i**2,i**3) #For testing purposes
-                for i in range(event.nboostedTau)
-                #if tauSelection(event.boostedTau_pt[i], event.boostedTau_eta[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawMVAoldDM2017v2[i]) #MVA
-                #if tauSelection(event.boostedTau_pt[i], event.boostedTau_eta[i]) #MVA No ISO and Decay
-                if tauSelection(event.boostedTau_pt[i], event.boostedTau_eta[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawDeepTau2018v2p7VSjet[i]) #DBT
-            ]
-            # Apply >= 4 boosted Tau in the events
-            if len(taus) > 3:
-                #print("Event selected")
-                theOutputTree.Fill()
+        theOutputTree = theInputTree.CopyTree(finalCut)
 
         theOutputFile.cd()
         print('Writing all output...')
         theOutputTree.Write('Events', ROOT.TFile.kOverwrite)
-        theRunTree.CopyTree('').Write('Runs', ROOT.TFile.kOverwrite)
+        
+        #let's get the old run tree
+        theRunTree.CopyTree('').Write('Runs',ROOT.TFile.kOverwrite)
+
+        #okay, now let's get the remaining object in the nano file and
+
         theOutputFile.Write()
         theOutputFile.Close()
-        theLoadFile.Close()
-
+        theLoadFile.Close()        

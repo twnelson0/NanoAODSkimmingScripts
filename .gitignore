@@ -1,0 +1,10 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.py.swp
+
+#Output files
+*.root
+*input.txt
+nohup.out

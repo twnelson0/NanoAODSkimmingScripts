@@ -1,0 +1,2 @@
+#!/bin/bash
+python skimNtuples.py --skimFileConfiguration ~/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/bbtautauAnalysisScripts/metaData/skimmingFiles/December24_2024/Signal_2TeV_2018_NoDBT.json --skimCutConfiguration ../../metaData/skimmingCuttingConfigurations/2017_18_looserGeneralSkimCuttingConfiguration.json --skimBranchCancelations ../../metaData/branchCancelationConfigurations/Null_Cancelation.json --destination /hdfs/store/user/twnelson/HH4Tau_EtAl/Skimmed_Files/2018/ --skimSuffix NoDBT_NoDeay_NoISO --prepareCondorSubmission

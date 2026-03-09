@@ -1,0 +1,6 @@
+{
+    "JetHT_Run2018A": "/hdfs/store/user/twnelson/HH4Tau_EtAl/Full_Production_CMSSW_13_0_13_Feb_25/2018/Data/JetHT/Run2018A-UL2018_MiniAODv2_GT36-v1/251126_154355/*/*.root",
+    "JetHT_Run2018B": "/hdfs/store/user/twnelson/HH4Tau_EtAl/Full_Production_CMSSW_13_0_13_Feb_25/2018/Data/JetHT/Run2018B-UL2018_MiniAODv2_GT36-v1/251126_154410/*/*.root",
+    "JetHT_Run2018C": "/hdfs/store/user/twnelson/HH4Tau_EtAl/Full_Production_CMSSW_13_0_13_Feb_25/2018/Data/JetHT/Run2018C-UL2018_MiniAODv2_GT36-v1/251126_154425/*/*.root",
+    "JetHT_Run2018D": "/hdfs/store/user/twnelson/HH4Tau_EtAl/Full_Production_CMSSW_13_0_13_Feb_25/2018/Data/JetHT/Run2018D-UL2018_MiniAODv2_GT36-v1/251126_154440/*/*.root"
+}

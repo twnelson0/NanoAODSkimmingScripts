@@ -1,0 +1,9 @@
+{    
+    "WJetsToLNu_HT-70To100": "/hdfs/store/user/gparida/HHbbtt/Full_Production_CMSSW_13_0_13_Nov24_23/2018/MC/WJetsToLNu_HT-70To100_TuneCP5_13TeV-madgraphMLM-pythia8/WJetsToLNu_HT-70To100_TuneCP5_13TeV-madgraphMLM-pythia8/231225_151934/*/*.root",
+    "ST_s-channel_4f_hadronicDecays" : "/hdfs/store/user/gparida/HHbbtt/Full_Production_CMSSW_13_0_13_Nov24_23/2018/MC/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/240926_084632/*/*.root",   
+    "ST_s-channel_4f_leptonDecays" : "/hdfs/store/user/gparida/HHbbtt/Full_Production_CMSSW_13_0_13_Nov24_23/2018/MC/ST_s-channel_4f_leptonDecays_TuneCP5_13TeV-amcatnlo-pythia8/ST_s-channel_4f_leptonDecays_TuneCP5_13TeV-amcatnlo-pythia8/231225_152313/*/*.root",   		
+    "ZZTo2L2Nu": "/hdfs/store/user/gparida/HHbbtt/Full_Production_CMSSW_13_0_13_Nov24_23/2018/MC/ZZTo2L2Nu_TuneCP5_13TeV_powheg_pythia8/ZZTo2L2Nu_TuneCP5_13TeV_powheg_pythia8/240926_084758/*/*.root",
+    "ZZTo2Nu2Q": "/hdfs/store/user/gparida/HHbbtt/Full_Production_CMSSW_13_0_13_Nov24_23/2018/MC/ZZTo2Nu2Q_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/ZZTo2Nu2Q_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/231225_153100/*/*.root",
+    "ZZTo4Q": "/hdfs/store/user/gparida/HHbbtt/Full_Production_CMSSW_13_0_13_Nov24_23/2018/MC/ZZTo4Q_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/ZZTo4Q_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/240926_084719/*/*.root",
+    "WWTo4Q": "/hdfs/store/user/gparida/HHbbtt/Full_Production_CMSSW_13_0_13_Nov24_23/2018/MC/WWTo4Q_4f_TuneCP5_13TeV-amcatnloFXFX-pythia8/WWTo4Q_4f_TuneCP5_13TeV-amcatnloFXFX-pythia8/240926_084652/*/*.root"
+}
