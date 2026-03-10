@@ -10,9 +10,7 @@ import math
 import datetime
 import os
 from tqdm import tqdm
-from bbtautauAnalysisScripts.boostedTauNanoMaker.skimModules.skimManager import skimManager #Need to change directory
-#from RadionBoostedHiggsAnalysisPlots.NanoAOD_Skimming.boostedTauNanoMaker.skimModules.skimManager import skimManager #Need to change directory
-#from NanoAOD_Skimming.boostedTauNanoMaker.skimModules.skimManager import skimManager #Need to change directory
+from NanoAODSkimmingScripts.boostedTauNanoMaker.skimModules.skimManager import skimManager #Need to change directory
 
 def main(args):
     print('Setting up the skim...')
@@ -77,7 +75,7 @@ def main(args):
                 '--extra-inputs="'+args.skimCutConfiguration+' '+args.skimBranchCancelations+'"',
                 '--input-dir=/',
                 globKey+'_'+datetime.datetime.now().strftime('%d%B%y_%H%M_skim')+ ('' if args.skimSuffix == '' else '_'+args.skimSuffix),#name of what we're doing. 
-                os.environ['CMSSW_BASE']+'/src/bbtautauAnalysisScripts/boostedTauNanoMaker/scripts/singleFileSkimForSubmission.py',
+                os.environ['CMSSW_BASE']+'/src/NanoAODSkimmingScripts/boostedTauNanoMaker/scripts/singleFileSkimForSubmission.py',
                 '--', #seperates options for the script from the submission options
                 '\'--inputFile=$inputFileNames\'',
                 ''+('"--branchCancelationFile='+branchCancelationFileName+'"' if args.skimBranchCancelations != None else ''),
