@@ -115,7 +115,10 @@ class skimManager():
             ]
             # Apply >= 4 boosted Tau in the events
             if len(taus) > 3:
-                #print("Event selected")
+                print("Event selected")
+		print("Printing boosted tau pT")
+		for tau_tuple in taus:
+			print(tau_tuple[2])
                 theOutputTree.Fill()
 
         theOutputFile.cd()

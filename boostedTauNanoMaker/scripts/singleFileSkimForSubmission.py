@@ -6,7 +6,7 @@ import sys
 import argparse
 import re
 
-from bbtautauAnalysisScripts.boostedTauNanoMaker.skimModules.skimManager import skimManager
+from NanoAODSkimmingScripts.boostedTauNanoMaker.skimModules.skimManager import skimManager
 
 def main(args):
 
