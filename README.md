@@ -18,7 +18,7 @@ scram build -j 8
 ## Running Instructions
 The skimming code is run from within the directory `boostedTauNanoMaker/scripts/`
 
-The script that performs the skimming is a script called `skimManager.py` it is contained in the directory `bbtautauAnalysisScripts/boostedTauNanoMaker/python/skimModules`
+The script that performs the skimming is a script called `skimManager.py` it is contained in the directory `NanoAODSkimmingScripts/boostedTauNanoMaker/python/skimModules`
 
 To skim on a given set of files 
 ```bash
@@ -32,11 +32,11 @@ python skimNtuples.py --skimFileConfiguration 'location of json files containing
     "Sample_Name": "/location/of/nanoAODs/*.root"
 }
 ```
-For all tests I have performed I have used JSON files stored in `bbtautauAnalysisScripts/metaData/skimmingFiles/`
+For all tests I have performed I have used JSON files stored in `NanoAODSkimmingScripts/metaData/skimmingFiles/`
 
-`--skimCutConfiguration`  JSON file describing the cuts to be implemented (I have always passed in the json file `bbtautauAnalysisScripts/metaData/skimmingCuttingConfigurations/2017_18_looserGeneralSkimCuttingConfiguration.json` for this argument)
+`--skimCutConfiguration`  JSON file describing the cuts to be implemented (I have always passed in the json file `NanoAODSkimmingScripts/metaData/skimmingCuttingConfigurations/2017_18_looserGeneralSkimCuttingConfiguration.json` for this argument)
 
-`--skimBranchCancelations` JSON file denoting branches that do not need to be ported into the skimmed nanoAOD (I have always used the configuration denoted by the JSON file `bbtautauAnalysisScripts/metaData/branchCancelationConfigurations/Null_Cancelation.json`)
+`--skimBranchCancelations` JSON file denoting branches that do not need to be ported into the skimmed nanoAOD (I have always used the configuration denoted by the JSON file `NanoAODSkimmingScripts/metaData/branchCancelationConfigurations/Null_Cancelation.json`)
 
 `--destination` Denotes in what directory the skimmed files should be stored in
 
