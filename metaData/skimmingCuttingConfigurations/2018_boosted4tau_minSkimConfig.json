@@ -1,0 +1,9 @@
+{
+    "pT":"boostedTau_pt > 20",
+    "eta":"abs(boostedTau_eta) < 2.3",
+    "Deacy Mode":"boostedTau_idDecayModeOldDMs >= 0.5",
+    "DeepBoostedTau":"boostedTau_rawDeepTau2018v2p7VSjet >= 0.5",
+    "Four Tau":"nboostedTau >= 4" 
+}
+
+
