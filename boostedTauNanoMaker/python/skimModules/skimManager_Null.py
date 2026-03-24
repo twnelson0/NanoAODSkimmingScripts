@@ -23,8 +23,7 @@ class skimManager():
                   theCutFile,
                   outputFileName,
                   deltaR_min=0.1,
-                  deltaR_max=0.8,
-                  tauSelection=lambda pt, eta, decay_mode, deepBoostedTau: pt > 20 and abs(eta) < 2.3 and decay_mode >= 0.5 and deepBoostedTau >= 0.5):# 0.70): #Modify to 0.6 and 0.7 to see if you get 17 events (originial value set to 0.5)
+                  deltaR_max=0.8):
                   #tauSelection=lambda pt, eta, decay_mode, mva: pt > 20 and abs(eta) < 2.3 and decay_mode >= 0.5 and mva >= -0.7):
                   #tauSelection=lambda pt, eta: pt > 20 and abs(eta) < 2.3):
 
@@ -101,28 +100,9 @@ class skimManager():
         theOutputTree = theInputTree.CloneTree(0)
 
         for event in tqdm(theInputTree, total=theInputTree.GetEntries()):
-            #Impose Ganesh's selections 
-            #MET_Cond = event.MET_pt > 80
-            #nFatJet_Cond = event.nFatJet > 0
-            #PV_Cond = (event.PV_ndof > 4) & (abs(event.PV_z) < 24) & (math.sqrt(event.PV_x**2 + event.PV_y**2) < 2)
-            #Flag_Cond = event.Flag_goodVertices & event.Flag_globalSuperTightHalo2016Filter & event.Flag_HBHENoiseFilter & event.Flag_HBHENoiseIsoFilter & event.Flag_EcalDeadCellTriggerPrimitiveFilter & event.Flag_BadPFMuonFilter & event.Flag_BadPFMuonDzFilter & event.Flag_hfNoisyHitsFilter & event.Flag_eeBadScFilter & event.Flag_ecalBadCalibFilter
-            #
-            #if (MET_Cond & nFatJet_Cond & PV_Cond & Flag_Cond):
-            #    theOutputTree.Fill()
-            # Select taus
-            taus = [
-                (event.boostedTau_pt[i], event.boostedTau_eta[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawDeepTau2018v2p7VSjet[i]) #DBT
-                for i in range(event.nboostedTau)
-                if tauSelection(event.boostedTau_pt[i], event.boostedTau_eta[i], event.boostedTau_idDecayModeOldDMs[i], event.boostedTau_rawDeepTau2018v2p7VSjet[i]) #DBT
-            ]
-            # Apply >= 4 boosted Tau in the events
-            if len(taus) > 3:
-                theRunTree.Fill()
-                theOutputTree.Fill()
-                print("Event selected")
-                print("Printing boosted tau pT")
-                for tau_tuple in taus:
-                    print(tau_tuple[2])
+            #Keep every event
+            theRunTree.Fill()
+            theOutputTree.Fill()
 
 
         theOutputFile.cd()

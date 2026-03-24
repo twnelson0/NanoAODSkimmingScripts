@@ -10,7 +10,7 @@ import math
 import datetime
 import os
 from tqdm import tqdm
-from bbtautauAnalysisScripts.boostedTauNanoMaker.skimModules.skimManager import skimManager
+from NanoAODSkimmingScripts.boostedTauNanoMaker.skimModules.skimManager import skimManager
 
 def main(args):
     print('Setting up the skim...')

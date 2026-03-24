@@ -1,5 +1,6 @@
 {
-    "Deep Boosted Tau":"boostedTau_rawDeepTau2018v2p7VSjet >= 0.5",
+    "Four Tau":"len(boostedTau_pt) >= 4",
+    "DeepBoostedTau":"boostedTau_rawDeepTau2018v2p7VSjet >= 0.5",
     "Deacy Mode":"boostedTau_idDecayModeOldDMs >= 0.5",
     "eta":"abs(boostedTau_eta) < 2.3",
     "pT":"boostedTau_pt > 20"

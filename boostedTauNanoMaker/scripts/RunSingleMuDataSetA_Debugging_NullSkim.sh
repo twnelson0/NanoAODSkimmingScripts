@@ -1,0 +1,2 @@
+#!/bin/bash
+python skimNtuples.py --skimFileConfiguration ~/Analysis/BoostedTau/ControlPlots/SkimDevWork/CMSSW_10_6_27/src/NanoAODSkimmingScripts/metaData/skimmingFiles/December24_2024/singlemu_2018_DatasetA_Debug.json --skimCutConfiguration ../../metaData/skimmingCuttingConfigurations/NullSkimConfig.json --skimBranchCancelations ../../metaData/branchCancelationConfigurations/Null_Cancelation.json --destination /hdfs/store/user/twnelson/HH4Tau_EtAl/SkimDebugging --skimSuffix NullSkimming_Ver2 --prepareCondorSubmission

@@ -87,6 +87,20 @@ class skimManager():
         finalCut = theCutManager.createAllCuts()
         print('Performing final tree copy...')
         theOutputTree = theInputTree.CopyTree(finalCut)
+        
+	# Create new tree to hold filtered events
+        theOutputTree = theInputTree.CloneTree(0)
+        
+        for event in tqdm(theInputTree, total=theInputTree.GetEntries()):
+            #Impose Ganesh's selections 
+            MET_Cond = event.MET_pt > 80
+            nFatJet_Cond = event.nFatJet > 0
+            PV_Cond = (event.PV_ndof > 4) & (abs(event.PV_z) < 24) & (math.sqrt(event.PV_x**2 + event.PV_y**2) < 2)
+            Flag_Cond = event.Flag_goodVertices & event.Flag_globalSuperTightHalo2016Filter & event.Flag_HBHENoiseFilter & event.Flag_HBHENoiseIsoFilter & event.Flag_EcalDeadCellTriggerPrimitiveFilter & event.Flag_BadPFMuonFilter & event.Flag_BadPFMuonDzFilter & event.Flag_hfNoisyHitsFilter & event.Flag_eeBadScFilter & event.Flag_ecalBadCalibFilter
+            
+            if (MET_Cond & nFatJet_Cond & PV_Cond & Flag_Cond):
+                theOutputTree.Fill()
+                theRunTree.Fill()
 
         theOutputFile.cd()
         print('Writing all output...')
